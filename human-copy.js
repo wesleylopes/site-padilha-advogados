@@ -13,3 +13,4 @@ const copy={
 Object.entries(copy).forEach(([selector,text])=>{const el=document.querySelector(selector);if(el)el.textContent=text});
 const instagramLink=document.querySelector('.footer-contact a[href*="instagram.com"]');
 if(instagramLink) instagramLink.innerHTML='<svg class="instagram-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span>@escritoriopadilhaadvogados</span><span class="sr-only">Instagram Padilha Advogados</span>';
+if(instagramLink && instagramLink.parentElement) instagramLink.parentElement.innerHTML=instagramLink.outerHTML;
