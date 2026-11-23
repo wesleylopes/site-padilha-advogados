@@ -33,7 +33,7 @@ function e(string $value): string { return htmlspecialchars($value, ENT_QUOTES, 
   <meta name="theme-color" content="#0c0d0f">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/mobile.css">
+  <link rel="preload" as="image" href="/Assets/img/webp/banner-principal.webp" type="image/webp"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/mobile.css">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Attorney","name":"Padilha Advocacia","url":"<?= e($siteUrl) ?>","telephone":"+55 62 3085-5220","areaServed":["Goiânia","Goiás","Brasil"],"address":{"@type":"PostalAddress","addressLocality":"Goiânia","addressRegion":"GO","addressCountry":"BR"},"sameAs":["https://www.instagram.com/escritoriopadilhaadvogados/"]}
   </script>
