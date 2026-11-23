@@ -1,0 +1,2 @@
+const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll('.section,.area-card,.service-row,.contact-banner').forEach((el,i)=>{el.classList.add('reveal-item');el.style.setProperty('--reveal-delay',`${Math.min(i*45,240)}ms`);revealObserver.observe(el)});
