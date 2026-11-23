@@ -54,3 +54,4 @@
 .team-heading h2{font-size:clamp(36px,4.2vw,56px)!important;line-height:1.02!important}.team-heading>p:not(.eyebrow){font-size:16px;line-height:1.45}.team-heading{margin-bottom:36px}
 @media(max-width:680px){.team-heading h2{font-size:36px!important;line-height:1.04!important}.team-heading>p:not(.eyebrow){font-size:15px;line-height:1.45}.team-heading{margin-bottom:28px}}
 .photo-marianna{background-image:url('/Assets/img/equipe/dra-marianna-padilha.png')!important;background-position:center top;background-size:cover}
+.team-more{display:none!important}
