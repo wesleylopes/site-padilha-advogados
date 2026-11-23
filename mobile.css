@@ -37,3 +37,4 @@
 .cards{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;overflow:visible!important;scroll-snap-type:none!important;gap:12px!important;padding:4px 2px 18px!important}.cards .area-card{flex:none!important;width:auto!important}.carousel-controls{display:none!important}
 @media(max-width:1199px) and (min-width:681px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
 @media(max-width:680px){.cards{grid-template-columns:1fr!important;gap:18px!important;padding:0!important}.cards .area-card{width:100%!important}}
+@media(min-width:1200px){.cards{display:flex!important;flex-wrap:wrap;justify-content:center;align-items:stretch;gap:12px!important}.cards .area-card{flex:0 0 calc((100% - 48px)/5)!important;width:auto!important}}
